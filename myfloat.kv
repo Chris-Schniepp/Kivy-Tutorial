@@ -1,0 +1,19 @@
+<Button>:
+
+    font_size:40
+    color:0.3,0.6,0.7,1
+    size_hint: 0.5, 0.5
+
+<FloatLayout>:
+
+    Button:
+        id: anything
+        text: "You" if anything.state == "normal" else "can't compete"
+        background_color: 0.2,0.7,.3,1
+        pos_hint: {"x":0.5,"top":.85}
+
+    Button:
+        id: btn
+        pos_hint: {"y":.15}
+        text: "Chris" if btn.state == "normal" else "is a BEAST"
+        background_color: 0.9,0.5,.5,1
