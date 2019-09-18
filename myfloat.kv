@@ -6,6 +6,12 @@
 
 <FloatLayout>:
 
+    Label:
+        text: "Press and hold the buttons"
+        x:root.width * 0.01
+        y:root.height*.4
+        font_size:30
+
     Button:
         id: anything
         text: "You" if anything.state == "normal" else "can't compete"
